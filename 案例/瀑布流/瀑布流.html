@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>瀑布流</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			width: 100%;
+		}
+		.container{
+			width: 90%;
+			margin: 0 auto;
+
+		}
+		.wrap{
+			
+			position: relative;
+			/*overflow: hidden;*/
+
+		}
+		.item{
+			text-align: center;
+			width: 150px;
+			min-height: 100px;
+			/*float: left;*/
+			position: absolute;
+		}
+		.item+.item{
+		}
+/*		.more{
+			width: 90%;
+			margin: 0 auto;
+			background:#f6f6f6;
+
+			text-align: center;
+			position: absolute;
+			z-index: 1000;
+			height: 50px;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="wrap">
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item">7</div>
+			<div class="item">8</div>
+			<div class="item">9</div>
+			<div class="item">9</div>
+			<div class="item">10</div>
+			<div class="item">11</div>
+			<div class="item">12</div>
+			<div class="item">13</div>
+			<div class="item">14</div>
+			<div class="item">15</div>
+			<div class="item">16</div>
+			<div class="item">17</div>
+			<div class="item">18</div>
+			<div class="item">19</div>
+			<div class="item">20</div>
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item">8</div>
+			<div class="item">9</div>
+			<div class="item">9</div>
+			<div class="item">10</div>
+			<div class="item">11</div>
+			<div class="item">12</div>
+			<div class="item">13</div>
+			<div class="item">14</div>
+			<div class="item">15</div>
+			<div class="item">16</div>
+			<div class="item">17</div>
+			<div class="item">18</div>
+			<div class="item">19</div>
+			<div class="item">20</div>
+			<!-- <div class="more">
+				<button>加载更多</button>
+			</div> -->
+		</div>
+	
+	</div>
+	<script>
+		window.onload = ()=>{
+			//执行
+			var arr = waterFall();
+			//div生成函数
+			function createDiv(_className,text){
+				var divItem = document.createElement('div');
+				//divItem.classList.add('item');
+				if(typeof _className == 'string')
+				{
+					divItem.className = 'item';
+					divItem.innerText = text.toString();
+				}
+				else{
+					divItem.className = _className.toString;
+					divItem.innerText = text.toString();
+				}
+				return divItem;
+			}
+			//创建ditem
+			function createItems(num){
+				const parentNode = document.getElementsByClassName('wrap')[0];
+				var inenerTEXT ;
+				let childrenLen = parentNode.children.length;
+				for(let i = 0 ; i<num;i++)
+				{	inenerTEXT = childrenLen + i;
+					parentNode.appendChild(createDiv('item',inenerTEXT));
+
+				}
+				//再次调用
+				arr = waterFall();
+			}
+			//获取数组最小值
+			function getMin(_arr){
+				let minHeight = _arr[0];
+				let minKey = 0;
+				for(let i = 0 ; i < _arr.length ; i++)
+				{
+					if(minHeight >_arr[i]) 
+					{
+						minHeight = _arr[i];
+						minKey = i;
+					}
+				}
+				console.log("此时最小值数组key:",minKey,"值：",minHeight)
+				return minKey;
+			}
+			//获取数组最小值
+			function getMax(_arr){
+				let maxHeight = _arr[0];
+				let maxKey = 0;
+				for(let i = 0 ; i < _arr.length ; i++)
+				{
+					if(maxHeight <_arr[i]) 
+					{
+						maxHeight = _arr[i];
+						maxKey = i;
+					}
+				}
+				console.log("此时最大值数组key:",maxKey,"值：",maxHeight)
+				return maxKey;
+			}
+			function waterFall()
+			{
+				//初始化
+				let divItems = document.getElementsByClassName('item');
+				//获取容器的实际宽度
+				let containerWidth = document.getElementsByClassName("wrap")[0].offsetWidth;
+				//获取item 的实际宽度
+				let itemWidth = divItems[0].offsetWidth;
+				//设置间隙
+				let gap = 5 ;
+				//所占宽度
+				var mianWidth = itemWidth + gap;
+				//获取每行可以放置的item个数
+				const column = Math.floor(containerWidth / mianWidth );
+				//初始化记录数组
+				let arr = new Array(column);
+				//初始化item
+					for(let i = 0;i<divItems.length;i++)
+					{	//随机设置高度
+						divItems[i].style.height = Math.floor(Math.random()*300).toString(10)  + 'px';
+						//这是随机颜色 加以区分
+						divItems[i].style.backgroundColor = '#'+Math.floor(Math.random()*0xffffff).toString(16);
+					}
+				//排列
+					for(let i = 0 ; i < divItems.length;i++)
+					{	
+							//第一行
+							if(i < column){
+								divItems[i].style.left = i * mianWidth+gap + 'px';
+								arr[i] = divItems[i].offsetHeight ;
+								console.log(i * mianWidth);
+								console.log(arr[i],arr);
+							}
+							//之后列的排列
+							else{
+								let minKey = getMin(arr);
+								divItems[i].style.left = minKey * mianWidth + gap + 'px';
+								divItems[i].style.top = arr[minKey] + gap +'px';
+								arr[minKey] = arr[minKey] + gap + divItems[i].offsetHeight;
+							}
+					}
+				
+				return arr;
+			}
+			   // 页面尺寸改变时实时触发
+	        window.onresize =()=>{
+	        	waterFall();
+	        }
+	        var more = document.getElementsByClassName('more')[0];
+	        var wrap = document.getElementsByClassName('wrap')[0];
+	        // wrap.style.height = arr[getMin(arr)] + 'px';
+	        console.log(wrap.offsetHeight,"wrap",wrap.clientHeight)
+			window.onscroll = ()=>{
+				console.log(getScrollTop(),"aaa");
+				if(getClient().height + getScrollTop() >= arr[getMin(arr)]){
+					createItems(20);
+				}
+				if(wrap.children.length>500)
+				{
+					alert("暂无更多div");
+				
+				}
+				
+
+			}
+			//
+			// clientWidth 处理兼容性
+		    function getClient() {
+		        return {
+		        	//可视高度
+		            width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
+		            height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+		        }
+		    }
+		    // scrollTop兼容性处理
+		    function getScrollTop() {
+		    	//滚轮的滚动高度
+		        return window.pageYOffset || document.documentElement.scrollTop;
+		    }
+		}
+	</script>
+</body>
+</html>

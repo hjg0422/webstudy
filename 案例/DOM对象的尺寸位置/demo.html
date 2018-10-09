@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM元素的尺寸位置 </title>
+	<style>
+		
+		html,body{
+			height: 100%;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			overflow:hidden;
+		}
+		/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/ 
+		::-webkit-scrollbar 
+		{ 
+		    /*width: 16px; 
+		    height: 1px; 
+		    background: red; */
+		} 
+		#container{
+			width: 90%;
+			height: 100%;
+			margin: 0 auto;
+			padding-top: 50px;
+			text-align: center;
+			font-size: 15px;
+
+		}
+		#wrap{
+			width: 60%;
+			height: 70%;
+			background: #f6f6f6;
+			margin: 0 auto;
+			position: relative;
+			overflow-y: auto;
+		}		
+		#wrap p{
+			position: absolute;
+			top: 50%;
+			left:calc(50% - 75px);
+		}
+		.scroll{
+			height: 200%;
+			border: 10px solid green;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="wrap">
+			<div class="scroll">	
+					<p>DOM元素的位置尺寸</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		window.onload = ()=>{
+			var container = document.getElementById('container');
+			var wrap = document.getElementById('wrap');
+			var scrollNode = document.getElementsByClassName('scroll')[0];
+			//获取元素的实际宽高
+			/*
+					1.clientWidth和clientHeight
+			　　		可以获取元素可视区的大小,包含元素内容及内边距所占据的空间大小，不包括边框，滚动条。！！！！！
+					返回了元素大小,但没有单位,默认单位是px;
+			   		  PS:对于元素的实际大小,clientWidth和clientHeight理解如下:
+			   		  1.元素增加边框,无变化;
+			   		  2.元素增加外边框,无变化;
+			   		  3.增加滚动条,最终值=原本大小-滚动条大小;
+			   		  4.增加内边距,最终值=原本大小+内边距大小;
+			 		PS:如果没有设置任何CSS的width和height,那么非IE会算上滚动条和内边距的计算后的大小;而IE则返回0;
+				*
+			*/
+			const clientWidth = wrap.clientWidth; 
+			const clientHeight = wrap.clientHeight;
+			console.log("元素实际宽高：",clientWidth,clientHeight);
+			/*
+			scrollWidth和scrollHeight
+ 			这组属性可以获取没有滚动条的情况下,元素内容的总高度;
+  			box.scrollWidth;
+   				 // PS:返回了元素大小,默认单位是px;如果没有设置任何CSS的width和height,它会得到计算后的宽度和高度;
+			*/
+			const scrollHeight = scrollNode.scrollHeight;
+			const scrollWidth = scrollNode.scrollWidth;//除去overflow-y:auto;后div的实际高度。有滚动条时的div的总高度。
+			console.log("元素的",scrollWidth,scrollHeight);
+			/*
+			offsetWidth和offsetHeight
+ 		这组属性可以返回元素实际大小,包含边框/内边距和滚动条; ！！！！！！！！！！！！！
+	    box.offsetWidth;
+	     PS:返回了元素大小,默认单位是px;如果没有设置任何CSS的width和height,它会得到计算后的宽度和高度;
+	     PS:对于元素的实际大小,理解如下:
+	     1.增加边框,最终值=原本大小+边框大小;
+	     2.增加内边距,最终值=原本大小+内边距大小;
+	     3.增加外边据,无变化;
+	     4.增加滚动条,无变化,不会减小;
+ 		PS:对于元素大小的获取,一般是块级(block)元素并且已设置了CSS大小的元素较为方便;
+			*/
+			const nodeOffsetH = scrollNode.offsetHeight;
+			const nodeOffsetW = scrollNode.offsetWidth;
+			console.log("offsetW/H:",nodeOffsetW,nodeOffsetH);//包括边框的宽度 不包括滚动条的宽度
+		/*
+		clientTop/left
+			获取元素的上边框，左边框的大小。值为欸数值
+		*/
+			const clientTop = scrollNode.clientTop;
+			const clientLeft = scrollNode.clientLeft;
+			console.log("clientTop/left",clientTop,clientLeft);
+		/*
+		offsetTop/Left
+		获取元素相对于其父节点的Top Left 值，及其相对父元素的位置。 数值
+		*/
+			// const offsetTop = wrap.offsetTop;
+			// const offsetLeft = wrap.offsetLeft;
+			// console.log("offsetTop/Left",offsetTop,offsetLeft);
+		/*
+			scrollTop/scrollLeft
+			获取元素隐藏内容的高度/宽度 ps 读取内容滚动滚动条的时候 隐藏的内容
+			可以设置定位到该位置
+		*/
+			wrap.onscroll = ()=>{
+				let scrollTop = wrap.scrollTop;
+				let scrollLeft = wrap.scrollLeft;
+				console.log("scrollTop/Left:",scrollTop,scrollLeft);
+			}
+
+		}
+	</script>
+</body>
+</html>
