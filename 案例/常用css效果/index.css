@@ -1,0 +1,72 @@
+*{
+	margin: 0;padding: 0;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	background: #f6f6f6;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	
+}
+.animations{
+	width: 60%;
+	height: 70%;
+	min-width: 300px;
+	min-height: 300px;
+	margin: 0 auto;
+	background: #a6a6a6;
+	/*
+	*实现展示块的自动居中
+	*/
+	/*
+	
+	box-sizing: border-box;
+	padding-top: calc(15% - 75px);*/
+	position: relative;
+	overflow:hidden;
+}
+.show-block{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+	background: #a86;
+	margin: 0 auto;
+	position: absolute;
+	left: calc(50% - 75px);
+	top: calc(50% - 75px);
+}
+
+.fadeInl{
+	animation: fadeInl 500ms ease-in;
+}
+.fadeOutl{
+	animation: fadeOutl 500ms ease-in;
+}
+/*.show-block:hover{
+	animation: fadeOutl 500ms ease-in;
+}*/
+@keyframes fadeOutl{
+	0% {
+		opacity:1;
+		left: calc(50% - 75px);
+	}
+	100%{
+		opacity: 0;
+		left: -100%;
+	}
+}
+
+@keyframes fadeInl{
+	0% {
+		opacity: 0;
+		transform: translateX(-300px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

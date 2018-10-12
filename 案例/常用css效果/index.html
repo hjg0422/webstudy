@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<title>css效果</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="animations">
+			<div class="show-block">
+				<p>看我！！！</p>
+			</div>
+		</div>
+		<div class="options">
+		<span class="option-btn" id="fadeOutl">向左淡出</span>
+		<span class="option-btn" id="fadeInl">向右淡入</span>
+	</div>
+	</div>
+	<script>
+		window.onload = ()=>{
+			
+			let showBlock = document.getElementsByClassName('show-block')[0]
+			let animationsArr = [];//存储事件对象
+			animationsArr.push(document.getElementById('fadeOutl'));
+			animationsArr.push(document.getElementById('fadeInl'));
+			console.log(animationsArr.length,typeof(animationsArr));
+			const animationNames = ['fadeOutl','fadeInl'];
+			/*
+			*循环绑定事件
+			*/
+			for(let i = 0 ; i < animationsArr.length ; i++)
+			{
+					animationsArr[i].addEventListener('click',()=>{
+						console.log(animationNames[i])
+						showBlock.classList.add(animationNames[i]);
+						showBlock.addEventListener('animationend',()=>showBlock.classList.remove(animationNames[i]));
+					});				
+			}
+			//反思 如果要写很多个效果的话，触达事件按钮的获取，以及对应事件的绑定会变得很麻烦。 解决办法时将各个触发动画的name 一次存入数组。该name会对应id。 触发按钮的获取 用其类名获取，再循环绑定对应的事件。
+			
+
+		}
+	</script>
+</body>
+</html>

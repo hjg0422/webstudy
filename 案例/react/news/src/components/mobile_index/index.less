@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 50px;
+}
+.clearfix:before{
+  content: '';
+  display: table-cell;
+  clear: both;
+
+}
+header{
+  .logo-frime{
+    width: 100%;
+    .logo-time{
+      width: 270px;
+      height: 50px;
+      text-align: left;
+      color: #5fcfef;
+      font-size: 25px;
+      line-height: 55px;
+      //vertical-align: center;
+      float: left;
+
+    }
+  }
+  border-bottom: 1px solid #aa8866;
+  .setting{
+    font-size: .5rem;
+    padding: 10px;
+    color: #5fcfef;
+  }
+  .user_info{
+    margin-top: 10px;
+    color:white;
+  }
+}
+.ant-modal{
+  width: 300px;
+  height: 500px;
+}
+footer{
+  text-align: center;
+}
+.ant-col-24{
+  padding-top: 10px;
+  background: #f6f6f6;
+  section{
+    .list_image{
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      float: left;
+      padding: 5px;
+    }
+    .list_info{
+      height:100px;
+      width:calc(100% - 110px);
+      float: left;
+      position: relative;
+      h4{
+        margin-top: 8px;
+      }
+      .tag_date{
+        position: absolute;
+        bottom: 2px;
+        span{
+          display: inline-block;
+        }
+        .list_tag{
+          width: 50px;
+          border-radius: 5px;
+          text-align: center;
+          color: #54a86b;
+          font-size: 12px;
+          margin-left: 10px;
+          background: blanchedalmond;
+          border: 1px solid white;
+        }
+        .list_date{
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+//轮播图
+  .left_carousel {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    div{
+      height: 100%;
+    }
+    .ant-carousel .slick-slide {
+      text-align: center;
+      height: 195px;
+      line-height: 160px;
+      background: #364d79;
+      overflow: hidden;
+
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .ant-carousel .slick-slide h3 {
+      color: #fff;
+    }
+  }
+.ant-tabs-nav .ant-tabs-tab{
+  padding: 12px 22px;
+}
