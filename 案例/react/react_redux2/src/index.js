@@ -1,12 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDom from 'react-dom'
+import {store} from './components/redux/store'
+import {Provider,connect} from 'react-redux'
+import Card from './components/card'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const mapStateToProps = state =>{
+    return{
+        value : state
+    }
+}
+const mapDispatchProps = state =>{
+    return {
+        addLike:()=>{
+            console.log("add");
+            store.dispatch({
+                type:'ADD_LIKE'
+            });
+        },
+        decLike:()=>{
+            console.log("dec");
+            store.dispatch({
+                type:'DEC_LIKE'
+            });
+        },
+        description:()=>{
+            console.log("des");
+            store.dispatch({
+                type:'DESCRIPTION'
+            })
+        }
+    }
+}
+const App = connect(mapStateToProps,mapDispatchProps)(Card);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDom.render(<Provider store={store}>
+    <App/>
+</Provider>,document.getElementById('root'));
