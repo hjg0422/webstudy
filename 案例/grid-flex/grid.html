@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>grid 练习</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+		}
+		.container{
+			width: 	80%;
+			height: 100%;
+			padding-top:100px;
+			margin:0 auto;
+
+		}
+		.grid{
+			width: 80%;
+			margin:0 auto;
+			display:grid;
+			text-align: center;
+			background: #f6f6f6;
+			
+			
+		}
+		.grid-1{
+			/* 将列评分为四个等分*/
+			/*grid-template-columns: repeat(4,1fr);*/
+			grid-template-columns: 30% 20% 10% 40%;
+
+		}
+		.item{
+			display: block;	
+			background:yellow;
+			color: grey;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="grid grid-1">
+			<span class="item">1</span>
+			<span class="item">2</span>
+			<span class="item">3</span>
+			<span class="item">4</span>					
+		</div>
+	</div>
+</body>
+</html>

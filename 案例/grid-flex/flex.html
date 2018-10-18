@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html,body{
+			height: 100%;
+		}
+		.container{
+			width: 90%;
+			height: 100%;
+			margin: 0 auto;
+			padding-top: 50px;
+			display: flex;
+			/*
+			*主轴排列方向(x) 默认：row |row-reverse|column|column-reverse
+			*/
+			flex-direction: row;
+			/*换行排序方式：：normal|wrap(换行)|wrap-reverse*/
+			flex-wrap: wrap;
+			/*定义项目再主轴上的对齐方式：flex-start|flex-end|space-between|space-around|center*/
+			justify-content: center;
+			/*定义项目再交叉轴（y）上的对齐方式*/
+			align-items：flex-start,flex-end,center,stretch,baseline;
+		}
+		.box{
+			
+			width: 104px;
+			height: 104px; 
+			background:  #e7e7e7;
+			padding: 4px;
+			box-shadow:
+		    inset 0 -5px #bbb,
+		    inset 5px 0 #d7d7d7, 
+		    inset -5px 0 #d7d7d7;
+ 			border-radius: 10%;
+ 			margin: 20px;
+		}
+		.item{
+			display: block;
+			background: #333;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			margin: 4px;
+			box-shadow: inset 0px 3px #111,inset 0px -3px #111;
+		}
+
+		.box-1{
+			display: flex;
+			/*水平轴居中对齐*/
+			justify-content: center;
+			/*交叉轴居中对齐*/
+			align-items: center;
+		}
+		.box-2{
+			display: flex;
+			justify-content: space-between;
+		}
+		.box-2>span+span{
+			/*子项目属性，定义与父项不同的交叉轴对齐方式，可覆盖align-item*/
+			align-self: flex-end;
+		}
+		.box-3{
+			display: flex;
+			/*justify-content: row;*/
+			justify-content: space-between;
+		}
+		.box-3>span+span{
+			align-self: center;
+		}
+		.box-3 .item:nth-of-type(3)
+		{
+			align-self: flex-end;
+		}
+		.box-4{
+			display: flex;
+			justify-content: space-between;
+		}
+		.box-4>.column,.box-5>.column{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.box-5{
+			display: flex;
+			justify-content: space-between;
+		}
+		.box-5>.column:nth-of-type(2){
+			align-self: center;
+		}
+		.box-6{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.box-6>.column{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box box-1">
+			<span class="item"></span>
+		</div>
+		<div class="box box-2">
+			<span class="item"></span>
+			<span class="item"></span>
+		</div>
+		<div class="box box-3">
+			<span class="item"></span>
+			<span class="item"></span>
+			<span class="item"></span>
+		</div>
+		<div class="box box-4">
+			<div class="column">
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+			<div class="column">
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+
+		</div>
+		<div class="box box-5">
+			<div class="column">
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+			<div class="column">
+				<span class="item"></span>
+			</div>
+			<div class="column">
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+			
+		</div>
+		<div class="box box-6">
+			<div class="colum">
+				<span class="item"></span>
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+			<div class="colum">
+				<span class="item"></span>
+				<span class="item"></span>
+				<span class="item"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
