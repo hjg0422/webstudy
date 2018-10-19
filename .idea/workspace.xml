@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b49287a4-0776-4e46-9687-3175f6daa91f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blog/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blog/src/component/blog_nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blog/src/component/blog_nav/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blog/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blog/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/config/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/config/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,45 +65,84 @@
     <session id="1995148967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="6" />
-          <entry key="json" value="3" />
+          <entry key="css" value="4" />
+          <entry key="js" value="14" />
+          <entry key="json" value="7" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="6" />
+          <entry key="CSS" value="4" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="14" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="69" />
-          <entry key="json" value="17" />
+          <entry key="css" value="69" />
+          <entry key="js" value="687" />
+          <entry key="json" value="30" />
           <entry key="scss" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="69" />
+          <entry key="CSS" value="69" />
+          <entry key="JSON" value="30" />
+          <entry key="JavaScript" value="687" />
           <entry key="SCSS" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1363#1396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,6 +160,8 @@
       <find>cssModuleRegex</find>
       <find>getStyleLoaders</find>
       <find>sassModuleRegex</find>
+      <find>babel</find>
+      <find>bootstrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,6 +190,12 @@
         <option value="$PROJECT_DIR$/案例/react/blog/src/index.js" />
         <option value="$PROJECT_DIR$/案例/react/blog/src/test.moudle.scss" />
         <option value="$PROJECT_DIR$/案例/react/blog/src/component/blog_nav/index.js" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/package.json" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/index.css" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/index.js" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.css" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.js" />
       </list>
     </option>
   </component>
@@ -158,12 +206,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/案例/react/blog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/案例/react/blogs/node_modules" />
     <handled-path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/案例/react/blog/package.json" />
+      <path value="$PROJECT_DIR$/案例/react/blogs/package.json" />
       <path value="$PROJECT_DIR$/案例/react/news/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux2/package.json" />
@@ -187,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,10 +253,53 @@
               <item name="案例" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs_nav" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +345,12 @@
       <workItem from="1539861240339" duration="37000" />
       <workItem from="1539874105009" duration="1969000" />
       <workItem from="1539922280168" duration="3790000" />
+      <workItem from="1539932682121" duration="5555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16005000" />
+    <option name="totallyTimeSpent" value="21560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -381,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/news/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blog/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -395,13 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blog/src/test.moudle.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blog/src/test.moudle.scss" />
     <entry file="file://$PROJECT_DIR$/案例/react/blog/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -420,9 +498,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/navbar.moudle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="271" column="28" selection-start-line="271" selection-start-column="28" selection-end-line="271" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1363#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/blogs_nav/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
