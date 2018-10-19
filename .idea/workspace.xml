@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49287a4-0776-4e46-9687-3175f6daa91f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/案例/API/DATA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/news/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/news/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,14 +58,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1995148967">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="46" />
+          <entry key="json" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="17" />
+          <entry key="JavaScript" value="46" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/card/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/案例/react/blog/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/案例/react/blog/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/案例/react/news/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -108,6 +164,9 @@
         <option value="$PROJECT_DIR$/案例/react_redux2/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/案例/react/react_redux2/package.json" />
         <option value="$PROJECT_DIR$/案例/react/react_redux2/src/components/card/index.js" />
+        <option value="$PROJECT_DIR$/案例/react/blog/package.json" />
+        <option value="$PROJECT_DIR$/案例/react/news/package.json" />
+        <option value="$PROJECT_DIR$/案例/react/blog/src/index.js" />
       </list>
     </option>
   </component>
@@ -118,21 +177,638 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/案例/react/news/node_modules" />
-    <handled-path value="$PROJECT_DIR$/案例/react/react_redux/node_modules" />
-    <handled-path value="$PROJECT_DIR$/案例/react/react_redux2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/案例/react/blog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/案例/react/blog/package.json" />
       <path value="$PROJECT_DIR$/案例/react/news/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux2/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/ast/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/floating-point-hex-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-api-error/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-buffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-fsm/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-module-context/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-wasm-bytecode/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/helper-wasm-section/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/leb128/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/utf8/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wasm-edit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wasm-gen/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wasm-opt/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wasm-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wast-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@webassemblyjs/wast-printer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@xtuc/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/@xtuc/long/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/acorn-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ajv-errors/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ansi-colors/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ansi-html/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/array-union/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/asn1.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/assert/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/assert/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/assert/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-core/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-generator/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-builder-react-jsx/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-call-delegate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-define-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-hoist-variables/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-optimise-call-expression/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helper-replace-supers/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-helpers/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-loader/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-messages/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-check-es2015-constants/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-syntax-flow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-syntax-jsx/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-classes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-literals/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-modules-amd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-modules-umd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-spread/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-flow-strip-types/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-react-display-name/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-react-jsx-self/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-react-jsx-source/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-react-jsx/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-regenerator/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-plugin-transform-strict-mode/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-preset-es2015/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-preset-flow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-preset-react/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-register/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-template/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-traverse/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babel-types/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/babylon/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/batch/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/big.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/bn.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/bonjour/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/brorand/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-aes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-cipher/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-des/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-rsa/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-sign/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/browserify-zlib/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/buffer-from/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/buffer-indexof/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/buffer-xor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/buffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/builtin-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cacache/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/chrome-trace-event/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cipher-base/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/commondir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/compressible/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/compression/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/concat-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/connect-history-api-fallback/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/constants-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/copy-concurrently/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/create-ecdh/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/create-hash/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/create-hmac/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/crypto-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/cyclist/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/date-now/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/default-gateway/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/del/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/des.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/detect-indent/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/detect-node/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/diffie-hellman/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/dns-equal/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/dns-packet/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/dns-txt/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/domain-browser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/duplexify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/elliptic/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/emojis-list/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/enhanced-resolve/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/eslint-scope/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/esrecurse/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/estraverse/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/eventemitter3/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/events/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/eventsource/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/evp_bytestokey/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/express/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/find-cache-dir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/flush-write-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/from2/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fs-write-stream-atomic/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/glob-parent/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/global-modules-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/globby/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/handle-thing/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/hash-base/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/hash.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/hmac-drbg/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/home-or-tmp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/hpack.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/html-entities/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/http-deceiver/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/http-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/http-proxy-middleware/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/http-proxy/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/https-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/iferr/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/node_modules/pkg-dir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/import-local/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/internal-ip/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/interpret/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/invariant/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ip-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-path-cwd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-path-in-cwd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-path-inside/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/json-parse-better-errors/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/json3/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/killable/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/loader-runner/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/lodash.debounce/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/loglevel/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/map-age-cleaner/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/md5.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mem/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/miller-rabin/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/minimalistic-assert/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/minimalistic-crypto-utils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mississippi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/move-concurrently/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/multicast-dns-service-types/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/multicast-dns/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/neo-async/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/nice-try/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/node-forge/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/node-libs-browser/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/node-libs-browser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object-copy/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/obuf/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/original/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/os-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-defer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-is-promise/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pako/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/parallel-transform/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/parse-asn1/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-dirname/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pbkdf2/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pkg-dir/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/portfinder/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/private/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/process/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/promise-inflight/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/prop-types/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/public-encrypt/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/pumpify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/querystring-es3/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/querystring/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/querystringify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/randombytes/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/randomfill/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/react/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regenerate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regenerator-transform/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regjsparser/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/regjsparser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/repeating/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/requires-port/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/resolve-cwd/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/resolve-from/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ripemd160/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/run-queue/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/schedule/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/select-hose/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/selfsigned/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/serialize-javascript/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/serve-index/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sha.js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/slash/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs-client/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs-client/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/echo/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/express-3.x/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/express/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/hapi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/koa/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/examples/multiplex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/sockjs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/spdy-transport/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/spdy/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/ssri/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/stream-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/stream-each/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/stream-http/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/stream-http/test/browser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/stream-shift/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/thunky/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/timers-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-fast-properties/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-object-path/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/trim-right/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/tty-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/typedarray/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uglify-es/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uglify-es/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uglifyjs-webpack-plugin/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uglifyjs-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unique-filename/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unique-slug/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/upath/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/url-parse/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/url/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/url/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/v8-compile-cache/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/vm-browserify/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/watchpack/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wbuf/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-cli/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-middleware/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-middleware/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-dev-server/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-log/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-sources/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack-sources/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/webpack/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/websocket-driver/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/websocket-extensions/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/worker-farm/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/xregexp/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/案例/webpack/webpack-react/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/案例/react/news/package.json" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="160" />
-    <option name="width" value="1595" />
+    <option name="x" value="975" />
+    <option name="y" value="110" />
+    <option name="width" value="880" />
     <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -148,43 +824,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
               <item name="案例" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
               <item name="案例" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
               <item name="案例" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux2" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +861,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/work" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -232,15 +899,16 @@
       <workItem from="1539244122276" duration="1291000" />
       <workItem from="1539258878448" duration="904000" />
       <workItem from="1539315812440" duration="452000" />
+      <workItem from="1539861240339" duration="37000" />
+      <workItem from="1539874105009" duration="1969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10209000" />
+    <option name="totallyTimeSpent" value="12215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -254,7 +922,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22237961" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22237961" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,8 +1022,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/card/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="209">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blog/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
