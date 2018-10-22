@@ -1,0 +1,165 @@
+.content_block{
+  max-width: 1280px;
+  margin: 0 auto;
+  background: url("../../../imgs/baseline.png") repeat;
+  //初始化li
+  li{
+    display: inline-block;
+  }
+  //欢迎语样式
+  >section:nth-of-type(1){
+    padding-top: 1em;
+    padding-left: 25%;
+    font: 40px "华文新魏";
+    color: #e67c14;
+    span:nth-of-type(1){
+      color: #5fcfef;
+    }
+    span:nth-of-type(2){
+      color: #dee613;
+      font-size: 55px;
+      margin-left: .5em;
+    }
+    span:nth-of-type(2){
+      display: inline-block;
+      animation: font-scale 2s ease infinite alternate;
+    }
+  }
+
+}
+.hot-blogs{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  //博文卡片样式
+  >li{
+    width: 20%;
+    max-width: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+    //border: 1px solid rgba(0, 0, 0, 0.77);
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.5);
+    overflow: hidden;
+    background-color: rgba(254, 254, 254, 0.67);
+    transition: all 1s;
+    &:hover{
+      transform: scale(1.1);
+      >div:nth-of-type(1){
+        >img{
+          filter: blur(5px);
+        }
+        >span{
+          display: inline-block;
+        }
+      }
+    }
+    div:nth-of-type(1){
+      width: 100%;
+      height: 50%;
+      position: relative;
+      img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+      }
+
+      span{
+        position: absolute;
+        top: 45%;
+        left:calc(50% - 2em);
+        color: white;
+        font-size: 33px;
+        display: none;
+      }
+    }
+    div:nth-of-type(2){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      >section{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        //超出部分标题隐藏
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+
+        }
+      //文章标题 及内容
+      >div{
+        >article{
+          padding: 1em;
+          font-size: 14px;
+          line-height: 1.2em;
+          width: 100%;
+          height: 4.8em;
+          //实现多于文字隐藏
+          position: relative;
+          overflow: hidden;
+          &::after {
+            content:"...";
+            font-weight:bold;
+            position:absolute;
+            bottom:0;
+            right:0;
+            padding:0 20px 1px 45px;
+            background:url(http://css88.b0.upaiyun.com/css88/2014/09/ellipsis_bg.png) repeat-y;
+          }
+        }
+      }
+      //文章 点赞评论浏览
+      >ul{
+        font-size: 14px;
+        padding-top: 1.2em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      }
+    //文章所属标签
+    >ul{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      li{
+        font-size: 14px;
+        padding: .2em;
+        min-width: 2em;
+        background: rgba(254, 254, 254, 0.57);
+      }
+    }
+    //日期
+    >section{
+      width: 100%;
+      font-size: 12px;
+      padding: .5em;
+      color: #d6d6d6;
+      text-align: right;
+      padding-top: 1em;
+    }
+  }
+}
+//字体动画
+@keyframes font-scale {
+  0%{
+    transform: scale(.8);
+  }
+  25%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  75%{
+    transform: scale(.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+

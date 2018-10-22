@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  //初始化字体样式
+  font-family: "华文新魏";
+}
+a{
+  text-decoration: none;
+}
+//初始化滚动条样式
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(58,58,58,.6);
+}
+

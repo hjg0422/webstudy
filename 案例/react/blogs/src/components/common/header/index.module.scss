@@ -1,0 +1,166 @@
+.blog-header{
+  width: 100%;
+  height: 64px;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 138, 53, 0.66);
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 1000;
+  justify-content: space-between;
+  text-align: center;
+  transition: background-color .5s ;
+  &:hover{
+    background: #f6f6f6;
+  }
+  a{
+    text-decoration: none;
+    color: #e67c14;
+  }
+  >a{
+    display: block;
+    padding: .5em;
+    padding-left: 2em;
+    font-size: 25px;
+    font-family: "华文新魏";
+    color: black;
+    svg{
+      color: #e6cb89;
+      transform: rotate(-30deg);
+    }
+  }
+  //navbar
+  ul{
+    list-style: none;
+    padding-right: 55px;
+    li{
+      display: inline-block;
+      line-height: 64px;
+      height: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-family: "方正舒体";
+      position: relative;
+      z-index: 1;
+      &:after{
+        content: '';
+        display: block;
+        height: 2px;
+        background: #5fcfef;
+        width: 0;
+        position: absolute;
+        z-index: 2;
+        bottom: .2em;
+        left: 0;
+      }
+      &:hover:after{
+        width: 100%;
+        transition: width 1s linear;
+      }
+    }
+  }
+
+  //.header-item:hover{
+  //  color: #000;
+  //  &:after{
+  //    width: 100%;
+  //    transition: width 1s linear;
+  //  }
+  //
+  //}
+  .header-icon{
+    font-size: 20px;
+    padding: .2em;
+  }
+  .header-home{
+    &:hover>a>i{
+      animation: icon-home 1s linear;
+    }
+  }
+  .header-blog{
+    &:hover>a>i>svg{
+      animation: search 1s linear;
+    }
+  }
+  .header-music{
+    &:hover>a>i>svg{
+      animation: music 1s linear;
+    }
+  }
+  .header-guestBook{
+    &:hover>a>i>svg{
+      animation: music 1s linear;
+    }
+  }
+  .header-resume{
+    &:hover>a>i>svg{
+      animation: music 1s linear;
+    }
+  }
+  .header-search{
+    &:hover>a>i>svg{
+      animation: search 1s linear;
+    }
+  }
+}
+
+//动画
+@keyframes icon-home {
+  0%{
+    margin-top: 5px;
+  }
+  20%{
+    margin: 0px;
+  }
+  40%{
+    margin: 3px;
+  }
+  60%{
+    margin: 0px;
+  }
+  80%{
+    margin: 4px;
+  }
+  100%{
+    margin: 0px;
+  }
+}
+
+@keyframes music {
+  0%{
+    transform: rotate(-15deg) scale(1.2);
+  }
+ 35%{
+   transform: rotate(0deg) scale(1);
+  }
+  55%{
+    transform: rotate(20deg) scale(1.3);
+  }
+  75%{
+    transform: rotate(-10deg) scale(1.1);
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+  }
+}
+@keyframes search {
+  0%{
+   transform: scale(1.2);
+  }
+  20%{
+    transform: scale(.8);
+  }
+  40%{
+    transform: scale(1);
+  }
+  60%{
+    transform: scale(1.3);
+  }
+  80%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+//....待补充

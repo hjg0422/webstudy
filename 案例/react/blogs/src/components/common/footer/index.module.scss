@@ -1,0 +1,27 @@
+.blog-footer{
+  padding: 10px;
+  font: 14px/1.5 "方正舒体";;
+  color: #e67c14;
+  section{
+    display: flex;
+    height: 48px;
+    justify-content: space-around;
+    >div{
+      line-height: 48px;
+    }
+    ul{
+      list-style: none;
+      li{
+        margin-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        border-left: 1px solid #9a9a9a;
+
+      }
+      li:nth-of-type(1){
+        border: none;
+      }
+    }
+  }
+}

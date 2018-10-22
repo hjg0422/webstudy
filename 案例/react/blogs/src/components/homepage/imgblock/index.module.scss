@@ -1,0 +1,54 @@
+.img-block{
+  width: 99.5vw;
+  height: 100vh;
+  position: relative;
+  background: url("../../../imgs/data_image_.gif") repeat;
+  color: #fefefe;
+
+  &:after{
+    top: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 99.5vw;
+    height: 100vh;
+    background: url("../../../imgs/Wallpaper-6.jpg") fixed;
+    background-size: cover;
+    z-index: -10;
+  }
+  section:nth-of-type(1){
+    font: 44px "华文新魏";
+    color: #e6cb89;
+    position: absolute;
+    top: calc(45% - 2em);
+    left: calc(50% - 1.4em);
+  }
+  section:nth-of-type(2){
+    font-size: 24px;
+    font-family: "华文新魏";
+    color: #fefefe;
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 8em);
+    ul{
+      margin-top: 1em;
+      display: flex;
+      justify-content: space-around;
+      li{
+        display: inline-block;
+      }
+      li:hover{
+        cursor: pointer;
+      }
+      li:nth-of-type(2){
+        color: black;
+      }
+      li:nth-of-type(3){
+        color: green;
+      }
+      li:nth-of-type(4){
+        color: blue;
+      }
+    }
+  }
+}
