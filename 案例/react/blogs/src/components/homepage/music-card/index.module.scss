@@ -1,0 +1,32 @@
+.music-card{
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  border: 1px solid #d6d6d6;
+  padding: 25px;
+  height: 220px;
+  >img{
+    max-width: 220px;
+    height: 100%;
+  }
+  ul{
+    li{
+      display: block;
+      padding-left: 20px;
+    }
+    li:nth-of-type(4){
+      //实现多于文字隐藏
+      position: relative;
+      overflow: hidden;
+      &::after {
+        content:"...";
+        font-weight:bold;
+        position:absolute;
+        bottom:0;
+        right:0;
+        padding:0 20px 1px 45px;
+        background:url(http://css88.b0.upaiyun.com/css88/2014/09/ellipsis_bg.png) repeat-y;
+      }
+    }
+  }
+}

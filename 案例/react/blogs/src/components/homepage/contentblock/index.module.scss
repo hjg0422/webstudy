@@ -29,8 +29,28 @@
 }
 .hot-blogs{
   display: flex;
+  position: relative;
+  //z-index: 1;
   padding-top: 20px;
   justify-content: space-around;
+  //左右箭头
+  //&:before,&:after{
+  //  content: icon;
+  //}
+  >span{
+    position: absolute;
+    font-size: 33px;
+    color: white;
+  }
+  >span:nth-of-type(1){
+    left: 1em;
+    top: calc( 50% - 1em);
+    
+  }
+  >span:nth-of-type(2){
+    right: 1em;
+    top: calc( 50% - 1em);
+  }
   //博文卡片样式
   >li{
     width: 20%;
@@ -41,7 +61,7 @@
     box-shadow: 0 15px 30px 0 rgba(0,0,0,.5);
     overflow: hidden;
     background-color: rgba(254, 254, 254, 0.67);
-    transition: all 1s;
+    transition: transform 1s;
     &:hover{
       transform: scale(1.1);
       >div:nth-of-type(1){
@@ -144,6 +164,22 @@
     }
   }
 }
+
+.nice-music{
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 22px;
+  //test
+  background-color: #fefefe;
+  .music{
+    width: 100%;
+    //test
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 //字体动画
 @keyframes font-scale {
   0%{
@@ -162,4 +198,5 @@
     transform: scale(1);
   }
 }
+
 

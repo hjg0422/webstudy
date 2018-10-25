@@ -3,8 +3,13 @@ import 'aplayer/dist/APlayer.min.css';
 import APlayer from 'aplayer';
 
 export default class MinMusic extends React.Component{
-
-    render() {
+    constructor(props){
+        super(props)
+    }
+    componentWillMount(){
+    }
+    componentDidMount(){
+        //请求数据 并封装 axios/fench
         //测试数据
         const musicInfo = [
             {
@@ -26,16 +31,20 @@ export default class MinMusic extends React.Component{
                 cover: './coverImgs/cover-3.jpg'
             }
         ];
-        //请求数据 并封装 axios/fench
+        //调用 aplayer
         const ap = new APlayer({
             container: document.getElementById('player'),
             fixed: true,
+            mutex:true,
+            autoplay:true,
             audio:musicInfo
         });
+        ap.list.switch(this.props.switchMusic);
+
+    }
+    render() {
+        console.log(this.props.switchMusic);
         return <div id="musicPlayer">
-            {/*<audio src="./musics/test.mp3" controls="controls">*/}
-               {/*Your browser can't support the tag;*/}
-            {/*</audio>*/}
         </div>
     }
 }

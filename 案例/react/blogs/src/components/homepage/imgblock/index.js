@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './index.module.scss'
 import {  notification, Icon } from 'antd';
-import MinMusic from '../../common/music';
 
 //需传入 背景图信息以及对应的reducer
 export default class ImgBlock extends React.Component{
@@ -36,7 +35,6 @@ export default class ImgBlock extends React.Component{
                     <li><Icon type="wechat" theme="outlined" /></li>
                     <li><Icon type="qq" theme="outlined" /></li>
                     <li onClick={this.handleClickNext.bind(this)}><Icon type="right" theme="outlined" /></li>
-                    <li><MinMusic /></li>
                 </ul>
             </section>
         </div>

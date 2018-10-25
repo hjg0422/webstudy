@@ -3,6 +3,7 @@ import ReactDom from 'react-dom'
 import {store} from './components/redux/store'
 import {Provider,connect} from 'react-redux'
 import Card from './components/card'
+// import PropTypes from 'prop-type'
 
 const mapStateToProps = state =>{
     return{

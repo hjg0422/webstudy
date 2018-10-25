@@ -1,4 +1,5 @@
 import React from 'react';
+import MinMusic from '../music';
 import styles from './index.module.scss'
 
 const Footer = (props)=><footer className={styles["blog-footer"]}>
@@ -12,6 +13,7 @@ const Footer = (props)=><footer className={styles["blog-footer"]}>
             <li><a href="/">contact me</a></li>
             <li><a href="/">guestBook</a></li>
             <li><a href="/">other</a></li>
+            <li><MinMusic switchMusic={props.switchMusic}/></li>
         </ul>
     </section>
 </footer>;

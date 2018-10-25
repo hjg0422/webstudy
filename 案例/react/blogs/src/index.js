@@ -1,25 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss'
-import { BrowserRouter,Route } from 'react-router-dom'
-import Header from './components/common/header'
-import Footer from './components/common/footer'
 import * as serviceWorker from './serviceWorker';
-import Home from "./components/homepage";
+import {switchAction} from './redux/action'
+import {store} from './redux/store'
 import "antd/dist/antd.css";
-
-ReactDOM.render(<BrowserRouter>
-        <div>
-            <Header/>
-            <Route path="/" exact component={Home}/>
-            <Route path="/blog" render={()=><div>blog</div>}/>
-            <Route path="/music" render={()=><p>music</p>}/>
-            <Route path="/guestBook" render={()=><p>guestBook</p>}/>
-            <Route path="/resume" render={()=><p>resume</p>}/>
-            <Route path="/search" render={()=><p>search</p>}/>
-            <Footer statement={"Copyright © Jun . All right reserved."} />
-        </div>
-    </BrowserRouter>
+import { Provider ,connect} from 'react-redux'
+import MyComponent from "./components/router";
+const mapStateToProps  = state =>{ return{
+    value:state
+}};
+const mapDispatchProps = state => {
+    return {
+        switchM:(index)=>{
+            const action = switchAction(index);
+            store.dispatch(action)
+        },
+    }
+};
+const App = connect(mapStateToProps,mapDispatchProps)(MyComponent);
+ReactDOM.render(<Provider store={store}>
+    <App/>
+    </Provider>
     , document.getElementById('root'));
 
 serviceWorker.unregister();

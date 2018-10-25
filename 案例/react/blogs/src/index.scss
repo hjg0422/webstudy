@@ -15,4 +15,42 @@ a{
   border-radius: 6px;
   background: rgba(58,58,58,.6);
 }
+//hotblog animations
+.hotBlogAnimation-left{
+  animation:hotBlogAnimation-left 1s ease ;
+}
+.hotBlogAnimation-right{
+  animation:hotBlogAnimation-right 1s ease-in ;
+}
+.blog-card{
+   animation:hotBlogAnimation-apocity 1s ease ;
+ }
+@keyframes hotBlogAnimation-left {
+  from {
+   transform: translateX(0);
+    opacity:1;
+  }
+  to{
+    transform: translateX(-400%);
+    opacity:0;
+  }
+}
+@keyframes hotBlogAnimation-right {
+  from {
+    transform: translateX(0);
+    opacity:1;
+  }
+  to{
+    transform: translateX(100%);
+    opacity:0;
+  }
+}
+@keyframes hotBlogAnimation-apocity {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 
+}
