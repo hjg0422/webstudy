@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>for_loop</title>
+	<link rel="stylesheet" href="./reset/reset.css">
+</head>
+<body>
+	<div class="container">
+	</div>
+	<script>
+		//····for循环
+		/*
+		* 通常循环一个arr/HTMLCollection要提前缓存好其长度
+		*eg:const arrLen = arr.length
+		*/
+		var arr = [1,2,3,4];
+		for ( var i = 0,arrLen = arr.length;i < arrLen; i++){
+			console.log(`i:${i},arr[${i}]:${arr[i]}`);
+		}
+		//通常对HTMLcollection 操作的时候如若不提前缓存好limitLength 就会在每次循环的时候都在DOM中查询，而对DOM的操作是很昂贵的。
+		//HTMLCollection 指DOM元素某一类的集合，如：document.getElementsByClass()/elementsByTagName/elementById/images/links/forms..
+			var man = {
+			   hands: 2,
+			   legs: 2,
+			   heads: 1
+			};
+		//·····for-in 遍历key值
+			//in  运算符返回一个boolean ，表示一个对象是否拥有莫格属性，它不区分该属性是否是对象自己本身的或是继承的
+			//在原型链上增添成员方法testFn
+			if (Object.prototype.testFn == undefined)
+			{
+				Object.prototype.testFn = function(){
+					console.log("test");
+				}
+			}
+
+			//for - in 遍历 用于遍历具有对象属性的obj，可用于数组。
+			for (var i in man){
+				console.log(i);
+			}
+				//遍历结果：hands legs  heads  testFn可见其会原型链上定义的成员方法遍历出来
+			// 改进遍历 :Object.hasOwnProperty(props) 判断Object是否拥有props属性 
+			for (var i in man){
+				if(man.hasOwnProperty(i)){//过滤
+					console.log(i)
+				}
+			}
+			for (var i in man) {
+			   if (Object.prototype.hasOwnProperty.call(man, i)) { // 过滤 这里时将Object.prototype上的方法的this重新定向到man，i 为对其传递的参数.
+			      console.log(i, ":", man[i]);
+			   }
+			}
+		//遍历对象
+			Object.keys(man).map(key=>console.log(`key:${key};value:${man[key]}`))
+		//forEach Array.forEach
+		arr.forEach((key,index)=>{
+			console.log(key,index)
+		})
+		//for of  用于遍历数组/Set/Map 遍历的为各项对应的值
+		var arr = [1,5,3,4]
+		for(var i of arr){
+			console.log(`value:${i}`)
+		}
+		//
+
+	</script>
+</body>
+</html>

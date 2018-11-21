@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>call bind apply</title>
+	<link rel="stylesheet" href="reset/reset.css">
+</head>
+<body>
+	<div class="container"></div>
+	<script>
+		//call/apply/bind 作用均是重新指定this指向的对象
+
+		var animal = {
+			name:"animal",
+			behavior:"睡觉",
+			doSomething:function(behavior1 = "刷牙",behavior2 = "吃饭"){
+				console.log(`${this.name}准备${this.behavior}醒了再${behavior1}然后再${behavior2}`);
+				//遍历函数内置数组 argments
+				for(var i = 0 ,argLen = arguments.length; i < argLen ;i++){
+					console.log(arguments[i])
+				}
+			}
+		}
+		var plant = {
+			name:"plant",
+			behavior:"growth"
+		}
+		//正常调用
+		animal.doSomething();
+		//call
+			/*行为：*/animal.doSomething.call(plant,"睁眼","起床");
+			/*特性： 将其this重定向到plant ，为绑定的函数传参方式是分开，可多个参数 
+			会立即执行
+			*/ 
+		//apply
+			/*行为*/animal.doSomething.apply(plant,["喝水","运动"]);
+			/*特性： 将其this重定向到plant ，为绑定的函数传参方式用数组包含对应参数，及只能传 1 个参数
+			会立即执行
+			*/ 
+		//bind
+			/*行为*/ animal.doSomething.bind(plant,"运动","喝水","aa")();
+			/*特性： 将其this重定向到plant ，为绑定的函数传参方式是分开，可多个参数
+				返回一个新的函数，不会立即执行
+			*/ 
+	/*总结*/
+		//相同点: 三者均可将this重定向到目标对象(第一个参数),传参方式未顺序传参
+		//不同点：call & bind 为绑定函数传参的行为一致 
+				//apply 未绑定函数传参打的行为与其他不同
+				//call & apply 都会立即执行
+				//bind 不会立即执行，会返回一个新的函数 需调用才能执行
+	</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		ul{
+			list-style: none;
+		}
+		ul>li{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<!-- <script src="../../js/asyncReques/ajax.js"></script> -->
+	<div class="container">
+		<ul style="display: flex;justify-content: space-around;align-items: center;">
+			<li class="ajaxGet"><button>GET</button></li>
+			<li class="ajaxPost"><button>Post</button></li>
+		</ul>
+	</div>
+	<script>
+		window.onload = ()=>{
+			function ajaxGet(myUrl,method){
+				var xhr;
+				if(window.XMLHttpRequest){
+					xhr = new XMLHttpRequest()
+				}
+				else{
+					//兼容IE6,IE5
+					xhr = new ActiveObject('Microsoft.XMLHTTP')
+				}
+
+				xhr.onreadystatechange = function(){
+
+					if(xhr.readyState == 4 && xhr.status == 200){
+
+						console.log(xhr.responseText)
+						var json = JSON.parse(xhr.responseText)
+						console.log(json)
+						alert("请求成功")
+					}
+				}
+
+				xhr.open('GET',myUrl,method)
+				xhr.send()
+			}
+			ajaxGet("../../php/requestAjax.php?name=123",true)
+		}
+	</script>
+</body>
+</html>

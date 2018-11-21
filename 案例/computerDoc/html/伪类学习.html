@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<style>
+	/*checked 伪类选择*/
+		input:checked{
+			color: red;
+		}
+		input:checked +span::after{
+			content: "selected";
+			color: red;
+		}
+		/*enabled/disabled 伪类选择*/
+		input[type="text"]:enabled{
+			border:2px solid yellow;
+			background: blue;
+		}
+		input[type="text"]:disabled{
+			border:1px dashed grey;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form action="#">
+			<fieldset>
+				<legend>单选</legend>
+				<ul>
+					<li><input type="radio" name="radio-group" value="1"><span>1</span></li>
+					<li><input type="radio" name="radio-group" value="2"><span>2</span></li>
+					<li><input type="radio" name="radio-group" value="3"><span>3</span></li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>多选</legend>
+				<ul>
+					<li><input type="radio" name="radio-group1" value="1"><span>1</span></li>
+					<li><input type="radio" name="radio-group2" value="2"><span>2</span></li>	
+					<li><input type="radio" name="radio-group3" value="3"><span>3</span></li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>enabled/disabled</legend>
+				<ul>
+					<li><input type="text" value="enabled"></li>
+					<li><input type="text" value="disabled" disabled="disabled"></li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

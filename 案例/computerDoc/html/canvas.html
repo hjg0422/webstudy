@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		canvas{
+			border:1px solid green;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<canvas id="first-canvas" height="300px" width="600px">
+			您的浏览器不支持cavas
+		</canvas>
+		<canvas id="second-canvas" height="600px" width="600px">
+			您的浏览器不支持cavas
+		</canvas>
+		<canvas id="third-canvas" height="600px" width="600px">
+			您的浏览器不支持cavas
+		</canvas>
+	</div>
+	<script>
+		window.onload = ()=>{
+			var canvas = document.getElementById("first-canvas")
+			var canvas2 = document.getElementById("second-canvas")
+			var canvas3 = document.getElementById("third-canvas")
+			//canvas编程的支持性
+			if(canvas.getContext){
+				var ctx =canvas.getContext('2d')
+				//绘画区域填充颜色 注意顺序
+				ctx.fillStyle = "rgb(200,0,0)"
+				//绘画矩形 fillRect(x, y, width, height)
+				// ctx.fillRect (10, 10, 70, 50)
+				//绘画矩形 边框
+				// ctx.strokeRect(50,50,70,50)
+				//清除指定矩形区域，让清除部分完全透明。 ctx.clearRect(x,y.width.height)
+				// ctx.clearRect(50,50,70,50)
+				ctx.fillRect(50,50,100,100)
+				ctx.clearRect(75,75,50,50)
+				ctx.strokeRect(87.5,87.5,25,25)
+			}
+			else{
+				//这里执行不支持canvas的降级code
+			}
+			if(canvas2.getContext){
+				var ctx2 = canvas2.getContext("2d")	
+				//开始绘制
+				ctx2.beginPath()
+				//设置起点
+				ctx2.moveTo(50,50)
+				//绘制直线基于当前位置到目标坐标
+				ctx2.lineTo(75,75)
+				ctx2.lineTo(75,50)
+				//通过填充路径的内容区域生成实心的图形。
+				ctx2.fill()
+				// 空心三角形
+				ctx2.beginPath()
+				ctx2.moveTo(100,100)
+				ctx2.lineTo(100,200)
+				ctx2.lineTo(200,100)
+				ctx2.closePath()
+				ctx2.stroke()
+				//
+				var circle = canvas2.getContext("2d")
+				circle.beginPath()
+				//arc(x,y,radius,startAngle,endAngle,anticlockwise(逆时针)))
+				circle.arc(200,200,55,0,Math.PI*2)
+				circle.fill()
+
+				// ctx2.closePath();
+				//二次贝塞尔曲线及三次贝塞尔曲线
+				//均以moveTo 设置起点
+				//quadraticCurveTo(cx,cy,endx,endy) 二次 前者控制点 候着曲线的结束点
+				////quadraticCurveTo(cx1,cy1,cx2,cy2,endx,endy) 二次 前者控制点 候着曲线的结束点
+					//二次实例
+					ctx2.beginPath()
+					ctx2.moveTo(300,300)
+					ctx2.quadraticCurveTo(350,350,300,400)
+					ctx2.stroke()
+					//三次实例
+					ctx2.strokeStyle = "red"
+					ctx2.beginPath()
+					ctx2.moveTo(280,300)
+					ctx2.bezierCurveTo(325,325, 350,350,300,400)
+					ctx2.stroke()					
+			}
+			else{
+				alert("cavas出现一点错误")
+			}
+			if( canvas.getContext ){
+				var ctx3 = canvas3.getContext("2d")
+				//Path2D
+				var rectangle = new Path2D()
+
+				rectangle.rect(10,10,60,30)
+
+				var circle = new Path2D()
+				circle.moveTo(125, 35); //七点 默认顺时针
+   				circle.arc(100, 35, 25, 0, 2 * Math.PI);//原点x,y 半径,起点角度rad，结束角度
+   				
+				ctx3.fill(rectangle)
+				ctx3.stroke(circle)
+			}
+		}
+		
+	</script>
+</body>
+</html>

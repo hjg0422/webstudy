@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: lightgreen;
+}
+a:hover{
+	color: #a6a6a6;
+}
+ul{
+	list-style: none;
+}
+/*容器初始化*/
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #f6f6f6;
+	height: 98%;
+	border:1px solid black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>锚点导航</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<style>
+	ul{
+		list-style: none;
+	}
+	a{
+		color: white;
+	}
+	.container>ul>li{
+		display: block;
+		height: 150px;
+	}
+	.container li:target{
+		border:1px solid green;
+	}
+	nav>ul>li{
+		display: block;
+		height: 50px;
+	}
+	nav#test{
+		position: fixed;
+		right: 2em;
+		top: 30%;
+		color: white;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<ul>
+			<li id="test-1">1</li>
+			<li id="test-2">2</li>
+			<li id="test-3">3</li>
+			<li id="test-4">4</li>
+			<li id="test-5">5</li>
+		</ul>
+	</div>
+	<nav id="test">
+		<ul>
+			<li><a href="#test-1">#test-1</a></li>
+			<li><a href="#test-2">#test-2</a></li>
+			<li><a href="#test-3">#test-3</a></li>
+			<li><a href="#test-4">#test-4</a></li>
+			<li><a href="#test-5">#test-5</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

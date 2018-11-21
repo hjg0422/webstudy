@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>eval</title>
+	<link rel="stylesheet" href="./reset/reset.css">
+</head>
+<body>
+	<div class="container"></div>
+	<script>
+		/*eval(String) 会立即执行String*/
+		var jsString = "console.log('jsString')"
+		eval(jsString)
+			//缺点： 会立即执行String中的js代码，不安全；若jsString 包含与其所在作用域命名冲突的变量，则会覆盖该变量。
+			/*解决方案：*/
+				//1
+				var a = 1;
+				
+				(function(){
+					var jsString = "var a = 2;console.log(`a:${a}`)"
+					eval(jsString)
+				})();
+				console.log(`a:${a}`);
+				//2 使用新的Function()构造就类似于eval()
+				new Function("var a = 2;console.log(`a:${a}`)")();
+				
+	</script>
+</body>
+</html>

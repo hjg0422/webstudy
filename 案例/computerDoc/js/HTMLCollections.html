@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTMLCollections</title>
+	<link rel="stylesheet" href="reset/reset.css">
+</head>
+<body>
+	<div class="container">
+		<span class="test">1</span>
+		<span class="test">2</span>
+		<span class="test">3</span>
+		<span class="test">4</span>
+		<span class="test" name="name" id="spanId">5</span>
+	</div>
+	<script>
+		window.onload = ()=>{
+			var HTMLCollections = document.getElementsByClassName('test')
+			var obj = {
+				name:"obj",
+				do:() => console.log(this.name)
+			}
+			//HTMLCollection.nameItem(option) option = elem.name||elem.idName 返回对应的元素
+			console.log(HTMLCollections.namedItem('name'),"name")
+			console.log(HTMLCollections.namedItem('spanId'),"id")
+			// HTMLCollections[0].onclick = ()=>console.log(this)
+			var htmls = Array.prototype.slice.call(HTMLCollections)
+			var htms2 = Array.from(HTMLCollections) //将类似数组的对象转为数组。
+			console.log(htmls)
+			htmls[0].onclick =function(){
+				console.log(this)
+			}
+		}
+	</script>
+</body>
+</html>

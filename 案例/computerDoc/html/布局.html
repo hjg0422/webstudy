@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局</title>
+	<style>
+	html,body{
+		height: 100%;
+		width: 100%;
+	}
+	body{
+		margin:0;
+		padding: 0;
+		font-size: 12px;
+	}
+		.center1
+		{ 
+		width:200px; 
+		height:200px; 
+		background: #a86;
+		margin: calc(50% - 100px);
+		}
+		.left,.right{
+			height: 100%;
+			width: 200px;
+			background: #a86;
+			position: absolute;
+		}
+		.left{
+			left: 0;
+		}
+		.right{
+			right: 0;
+		}
+		.center{
+			height: 100%;
+			width: calc(100% - 400px);
+			position: absolute;
+			left:200px;
+
+		}
+		div.left{
+			
+		}
+	</style>
+</head>
+<body>
+	<!-- 居中方案 -->
+		<!-- <div class="center1"></div> -->
+	<!-- 写一个左中右布局占满屏幕，其中左右两块是固定宽度200 ，中间自适应宽，要求先加载中间块，请写出结构及样式： -->
+
+        <div class = "left">我是左边</div>  
+
+        <div class = "right">我是右边</div>  
+
+        <div class = "center">我是中间</div>  
+
+</body>
+</html>

@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b49287a4-0776-4e46-9687-3175f6daa91f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/grid-flex/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/案例/grid-flex/flex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/common/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/common/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/common/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/common/music/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/common/music/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/imgblock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/imgblock/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例/react/react_redux2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/react_redux2/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/news/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/news/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例/react/news/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/案例/react/news/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,27 +66,29 @@
     <session id="1995148967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="88" />
+          <entry key="js" value="96" />
           <entry key="json" value="11" />
+          <entry key="md" value="1" />
           <entry key="rnc" value="2" />
           <entry key="scss" value="27" />
         </counts>
@@ -100,10 +96,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="5" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="88" />
+          <entry key="JavaScript" value="96" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="27" />
         </counts>
@@ -112,9 +109,9 @@
         <counts>
           <entry key="css" value="138" />
           <entry key="html" value="35" />
-          <entry key="js" value="9950" />
+          <entry key="js" value="10297" />
           <entry key="json" value="90" />
-          <entry key="scss" value="5058" />
+          <entry key="scss" value="5083" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -122,76 +119,19 @@
           <entry key="CSS" value="138" />
           <entry key="HTML" value="35" />
           <entry key="JSON" value="90" />
-          <entry key="JavaScript" value="9950" />
-          <entry key="SCSS" value="5058" />
+          <entry key="JavaScript" value="10297" />
+          <entry key="SCSS" value="5083" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.module.scss">
+        <entry file="file://$PROJECT_DIR$/案例/react/blogs/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/common/music/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#332#903#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="235" column="74" selection-start-line="235" selection-start-column="74" selection-end-line="235" selection-end-column="74" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#461#499#0" />
-                <element signature="e#524#5965#0" />
-                <element signature="e#681#4579#0" />
-                <element signature="e#4638#5759#0" />
-                <element signature="e#5838#5894#0" />
-                <element signature="e#5989#5997#0" />
-                <element signature="e#6018#6246#0" />
-                <element signature="e#6268#6495#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="171" column="8" lean-forward="true" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
-              <folding>
-                <element signature="e#570#3374#0" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -228,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/案例/react/react_redux/src/components/buttons/index.js" />
         <option value="$PROJECT_DIR$/案例/react/react_redux/src/components/buttons/buttons.js" />
         <option value="$PROJECT_DIR$/案例/react/react_redux/src/components/counter/counter.js" />
         <option value="$PROJECT_DIR$/案例/react/react_redux/src/components/redux/reducer/reducer.js" />
@@ -258,7 +197,6 @@
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/imgblock/index.js" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/common/header/index.module.scss" />
         <option value="$PROJECT_DIR$/案例/react/blogs/package.json" />
-        <option value="$PROJECT_DIR$/案例/react/blogs/public/index.html" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/common/footer/index.module.scss" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/imgblock/index.module.scss" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/index.js" />
@@ -274,11 +212,13 @@
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/common/footer/index.js" />
         <option value="$PROJECT_DIR$/案例/react/react_redux2/src/index.js" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/router/index.js" />
-        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/common/music/index.js" />
-        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss" />
         <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.module.scss" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js" />
+        <option value="$PROJECT_DIR$/案例/乱起八糟的笔记/viewport.md" />
+        <option value="$PROJECT_DIR$/案例/react/blogs/public/index.html" />
       </list>
     </option>
   </component>
@@ -290,12 +230,15 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/案例/react/blogs/node_modules" />
+    <handled-path value="$PROJECT_DIR$/案例/react/news/node_modules" />
+    <handled-path value="$PROJECT_DIR$/案例/react/react-router-redux/node_modules" />
     <handled-path value="$PROJECT_DIR$/案例/webpack/webpack-react/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/案例/react/blogs/package.json" />
       <path value="$PROJECT_DIR$/案例/react/news/package.json" />
+      <path value="$PROJECT_DIR$/案例/react/react-router-redux/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux/package.json" />
       <path value="$PROJECT_DIR$/案例/react/react_redux2/package.json" />
       <path value="$PROJECT_DIR$/案例/webpack/webpack-react/package.json" />
@@ -349,69 +292,14 @@
               <item name="案例" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="webstudy" type="462c0819:PsiDirectoryNode" />
               <item name="案例" type="462c0819:PsiDirectoryNode" />
               <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="contentblock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="imgblock" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,16 +318,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\webstudy\案例\react\blogs\src\components\homepage\contentblock" />
-      <recent name="E:\webstudy\案例\react\blogs\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\webstudy\案例\react\blogs\src\components\router" />
       <recent name="E:\webstudy\案例\react\blogs\src\components" />
       <recent name="E:\webstudy\案例\react\blogs\src\redux" />
       <recent name="E:\webstudy\案例\react\react_redux2\src\components" />
       <recent name="E:\webstudy\案例\react\blogs\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webstudy\案例\react\blogs\src\components\homepage\contentblock" />
+      <recent name="E:\webstudy\案例\react\blogs\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,15 +383,17 @@
       <workItem from="1540282857509" duration="15266000" />
       <workItem from="1540347749688" duration="10316000" />
       <workItem from="1540439616459" duration="6084000" />
+      <workItem from="1540900544202" duration="220000" />
+      <workItem from="1541125819156" duration="4870000" />
+      <workItem from="1541137445849" duration="3663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148689000" />
+    <option name="totallyTimeSpent" value="157442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2688243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,31 +407,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36685553" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30169973" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29128137" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22237961" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -550,17 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/show_card/index.js" />
-    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blog/package.json" />
-    <entry file="file://$PROJECT_DIR$/案例/react/blog/src/test.moudle.scss" />
-    <entry file="file://$PROJECT_DIR$/案例/react/blog/config/webpack.config.dev.js" />
     <entry file="file://$PROJECT_DIR$/案例/react/blog/src/component/blog_nav/index.js" />
     <entry file="file://$PROJECT_DIR$/案例/react/blog/src/index.js" />
     <entry file="file://$PROJECT_DIR$/案例/react/news/package.json">
@@ -593,13 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blogs/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -662,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/redux/action/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/redux/reducer/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -696,24 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/card/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -738,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/redux/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/redux/reducer/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -760,57 +585,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/common/music/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#332#903#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="235" column="74" selection-start-line="235" selection-start-column="74" selection-end-line="235" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#461#499#0" />
-            <element signature="e#524#5965#0" />
-            <element signature="e#681#4579#0" />
-            <element signature="e#4638#5759#0" />
-            <element signature="e#5838#5894#0" />
-            <element signature="e#5989#5997#0" />
-            <element signature="e#6018#6246#0" />
-            <element signature="e#6268#6495#0" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="171" column="8" lean-forward="true" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
-          <folding>
-            <element signature="e#570#3374#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/music-card/index.module.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/components/card/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#161#326#0" />
+            <element signature="e#363#434#0" />
+            <element signature="e#479#873#0" />
+            <element signature="n#BottomSection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/react_redux2/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#258#301#0" />
+            <element signature="e#335#788#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/redux/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/redux/action/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/src/components/homepage/contentblock/index.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
+          <folding>
+            <element signature="e#570#3374#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/乱起八糟的笔记/viewport.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#250#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/src/components/news_detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/src/components/news_block/news_block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/news/src/components/news_container/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/react/blogs/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

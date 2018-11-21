@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图的集中实现方式</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			font-size: 16px;
+		}
+		/*主容器*/
+		.wrap{
+			position: relative;
+			width: 100%;		
+			height: 100%;
+			/*测试属性*/
+			max-width: 640px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		/*imgs容器*/
+		#banner{
+			position: relative;
+			min-width: 800%;
+			height: 100%;
+			list-style: none;
+		}
+		.banner{
+			transition: left 1s;
+		}
+		/*img容器*/
+		#banner>li{
+			position: relative;
+			display: inline-block;
+			background: #a68;			
+		}
+		#banner>li+li{
+			/*去除间隔留白 间隔约5px*/
+			margin-left: -4px;
+		}
+		#banner>li>img{
+			width: 100%;
+			/*解决h像素留白*/
+			display: block;
+			min-width: 640px;
+			min-height: 480px;
+		}
+		/*spots*/
+		.buttons{
+			position: absolute;
+			bottom: 2em;
+			left: 5em;
+		}
+		.spot{
+			display: inline-block;
+			width: .5em;
+			height: .5em;
+			border-radius: 50%;
+			background: #f6f6f6;
+			cursor:pointer;
+			transition: width .5s;
+		}
+		.current-on{
+			background: black;
+			width: 2em;
+			border-radius: 30%;
+
+		}
+		/*arrows*/
+		.arrow{
+			position: absolute;
+			font-size: 20px;
+			width: 2em;
+			height: 2em;
+		}
+		.arrow>img{
+			width: 100%;
+			display: block;
+			filter: opacity(.6);
+		}
+		.arrow:hover{
+			filter: opacity(.5);
+		}
+		.pre{
+			left: 1em;
+			top: calc(50% - 2em);
+		}
+		.next{
+			right: 1em;
+			top: calc(50% - 2em);
+		}
+
+	</style>
+</head>
+<body>
+	<!-- 无缝轮播图 -->
+	<div class="wrap">
+		<ul id="banner" class="banner" style = "left: -641px;">
+			<li class="img_item banner-5">
+				<img src="" >
+			</li>
+			<li class="img_item banner-1">
+				<img src="" >
+			</li>
+			<li class="img_item banner-2">
+				<img src="" >
+			</li>
+			<li class="img_item banner-3">
+				<img src="" >
+			</li>
+			<li class="img_item banner-4">
+				<img src="" >
+			</li>
+			<li class="img_item banner-5">
+				<img src="" >
+			</li>
+			<li class="img_item banner-1">
+				<img src="" >
+			</li>
+		</ul>
+	<!-- 圆点  -->
+		<div class="buttons">
+			<span class="spot current-on" index="1"></span> 
+			<span class="spot" index="2"></span>
+			<span class="spot" index="3"></span>
+			<span class="spot" index="4"></span>
+			<span class="spot" index="5"></span>
+		</div>
+	<!-- 箭头 -->
+			<span class="arrow pre"><img src="imgs/pre.svg" alt=""></span>
+			<span class="arrow next"><img src="imgs/next.svg" alt=""></span>
+		
+	</div>
+	<script>
+		window.onload = ()=>{
+			/**
+				* 通过控制left 值达到无缝轮播
+				* 通过控制spot 类型控制其转换样式
+			**/
+			var wrap = document.getElementsByClassName('wrap')[0];
+			// var imgItems = document.getElementsByClassName('img_item');
+			var banner = document.getElementById('banner');
+			var spotItems = document.getElementsByClassName('spot');
+			var btnPre = document.getElementsByClassName('pre')[0];
+			var btnNext = document.getElementsByClassName('next')[0];
+			const spotLen = spotItems.length;
+			//实现click 控制图片轮播
+			btnNext.onclick = ()=>{
+				console.log(banner.style.left);
+				turnAnimation(-641);
+
+			}
+			btnPre.onclick = ()=>{
+				turnAnimation(641);
+			}
+			switchSpot();
+			//自动轮询
+			var timer = setInterval(turnAnimation,3000,-641);
+			wrap.onmouseover = ()=>{
+				clearInterval(timer);
+			}
+			wrap.onmouseout = ()=>{
+				timer = setInterval(turnAnimation,3000,-641);
+			}
+			function turnAnimation(offsetLeft){
+				banner.style.left =parseInt(banner.style.left) + offsetLeft + "px";
+				const leftLen = parseInt(banner.style.left);
+				var currentIndex = Math.abs(Math.ceil(leftLen / 641));
+				if(Math.ceil(leftLen / 641) >= 0){
+					currentIndex = 5;
+					setTimeout(()=>{
+						banner.classList.remove('banner');
+						banner.style.left = - 3205 +'px';
+					},500);
+				}
+				if(Math.ceil(leftLen / 641) <= -6){
+					currentIndex = 1;
+					setTimeout(()=>{
+						banner.classList.remove('banner');
+						banner.style.left = - 641 +'px';
+					},500);
+				}
+				//transition 优化头尾/尾头动画过度
+				banner.classList.add('banner');	
+				//spot	同步		
+				console.log(currentIndex);
+				turnSpot(currentIndex-1);
+				
+			}
+			//同步图片切换
+			function turnSpot(value){
+				
+				for(let i = 0; i < spotLen;i++)
+				{
+					// 初始化spot状态
+					spotItems[i].classList.remove('current-on');
+				}
+				spotItems[value].classList.add('current-on');
+			}
+			// switchspot
+			function switchSpot(){				
+					for(let i = 0; i < spotLen; i++){
+					spotItems[i].onclick = ()=>{
+						console.log(spotItems[i]);
+					// 清空spot在状态
+					for(let j = 0 ; j < spotLen;j++){
+						spotItems[j].classList.remove('current-on');
+					}
+					spotItems[i].classList.add('current-on');
+					banner.style.left = parseInt(spotItems[i].getAttribute('index'))*(-641) +'px';
+					}
+					// 测试
+					console.log(spotItems[i]);
+					}
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>原型/原型链</title>
+	<link rel="stylesheet" href="./reset/reset.css">
+</head>
+<body>
+	<div class="container">
+	</div>
+	<script>
+		/*
+			什么是原型链：
+			__proto__:
+				由于__proto__式对象皆有的属性，而js秉承万物皆对象，所以最终会形成一条原型链，递归访问__proto__
+				最终回到头，输出NULL(Object.prototype == null).
+				通常js 查找对象属性时，会先冲自身属性中查找再从原型链上查找，但不会查找自身的prototype.
+				prototype: 函数才具有的属性
+			prototype:
+				javascript继承的设计思想：原型对象的属性和方法都能够被实例对象共享。  定义在prototype 上的属性方法能够被其实例共享
+			constructor: 
+				prototype 有constructor 属性，默认指向对象所在的构造函数
+				constructor属性表示原型对象与构造函数之间的关联关系，如果修改了原型对象，一般会同时修改constructor属性，防止引用的时候出错。
+				function Person(name) {
+					  this.name = name;
+					}
+
+					Person.prototype.constructor === Person // true
+
+					Person.prototype = {
+					  method: function () {}
+					};
+
+					Person.prototype.constructor === Person // false
+					Person.prototype.constructor === Object // true
+				所以，修改原型对象时，一般要同时修改constructor属性的指向。
+
+
+		*/
+		//eg1
+			function A(){}
+			var a = new A();
+			console.log(`a.__proto__:${a.__proto__},A.__proto__:${A.__proto__}`)
+		//eg2
+			//构造函数
+			function Person(name = "mystery men" ,age = "0"){
+				this.name = name;
+				this.age = age ;
+			}
+			//实例化
+			var p1 = new Person("马云","43");
+			console.log(p1.constructor === Person) //		true
+			console.log(p1.__proto__ === Person.prototype) //true
+			//constructor 指向该实例化或对象/构造函数的 构造方法。 p1.constructor === Person/Person.constructor === Function
+			//Function.__proto__ 为一个匿名函数 且Function.__proto__.__proto__ === Object.prototype
+			//Function.__proto__ === Function.prototype
+			//Function.constructor === Function
+			//Object.__proto__ === Function.prototype  他们的值均为一个匿名函数
+			console.log(p1 instanceof Person) // true
+				// L instanceof R 小记
+					//其运算时,通过判断L的原型链上是否存在R.prototype，即
+						/*
+
+						if(L.__proto__.__proto__...===R.prototype) return true ; 
+						else return false;
+
+						一句话理解instanceof的运算规则为：
+						instanceof检测左侧的__proto__原型链上，是否存在右侧的prototype原型。
+						*/
+
+	</script>
+</body>
+</html>

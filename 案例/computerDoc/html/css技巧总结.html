@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css 技巧</title>
+	<style>
+		.container{
+			width: 90%;
+			margin: 0 auto;
+			background: #f5f5f5;
+		}
+		.item{
+			display: block;
+			border:2px solid lightgreen;
+		}
+		.item-1 img{
+			width: 100%;
+			/*解决图片留白1*/
+				/*display: block; */
+			 /*方案2:除了top值，还可以设置为text-top | middle | bottom | text-bottom，甚至特定的<length>和<percentage>值都可以*/
+			 	vertical-align:top;
+
+		}
+
+		.wrap-container{
+			height: 200px;
+			width: 200px;
+			border:1px solid green;
+			position: relative;
+		}
+		.outer{
+			background: #96a;
+			filter: blur(2px);
+			z-index: 1;
+		}
+		.inner{
+			margin: -200px 0 0 0;
+			cursor:pointer;
+			background: transparent;
+			z-index: 100;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<ul class="container">
+		<!-- 图片height留白 -->
+		<li class="item item-1">
+			<span class="item-detail">解决图片height留白</span>
+			<img src="./imgs/top.jpg" alt="img">
+		</li>
+		<!-- 背景虚化 -->
+		<li class="item item-2">
+			<div class=" wrap-container outer">bulr</div>
+			<div class=" wrap-container inner">不透明</div>
+		</li>
+	</ul>
+	
+</body>
+</html>

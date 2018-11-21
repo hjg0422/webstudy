@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>全局变量</title>
+	<link rel="stylesheet" href="./reset/reset.css">
+</head>
+<body>
+	<div class="container">
+	</div>
+	<script>
+		/*
+			*最大的全局对象window
+			*window 下声明的全局变量，均可以以window.x 访问
+			*全局变量存在的问题，有时候难以避免你命名冲突
+			*/
+			var a = 1;
+			console.log(`a:${a},window.a:${window.a}`); //	a:1,window.a:1
+			//该环境下 this == window && window === this  ture
+			console.log(`this == window && window === this:${this == window && this === window}`);
+
+			// 非严格模式下，可以用隐式全局变量 ep: global_x = 1 ; 
+			global_x = 1;
+			console.log(`global_x:${global_x}`);
+			console.log(`此种声明可以用delete x 删除--执行：${delete global_x}`);
+	</script>
+</body>
+</html>

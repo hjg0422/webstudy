@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>深浅拷贝</title>
+</head>
+<body>
+	<script>
+//对象的拷贝
+	//Object.assign(obj,optionObj1,...) 作用，将optionObj1可枚举的对象属相复制到木匾对象obj中，若复制属性名相同，则不会覆盖原属性的值。且不会复制optionObj 属性对象（a{obj:{...}}）中的属性值，而是直接复制该属性对象的引用。
+	//深拷贝(递归Object,Array 引用类型)
+		function deepCopy(obj){
+			var result ;
+			if(Object.prototype.toString.call(obj) == "[object Array"){//数组
+				result = [];
+				const arrLen = obj.length;
+				for(let i = 0 ; i < arrLen; i++){
+					result[i] = deepCopy(obj[i]);
+				}
+			}
+			else if(Object.prototype.toString.call(obj) == "[object Object"){//对象
+				result = {};
+				for (let i in obj){
+					result[i] = deepCopy(obj[i])
+				}
+			}
+			else{ //Function||基本类型
+				return obj;
+			}
+			return result;
+		}
+	//JSON.stringify(obj) Json.parse(JSON.stringify(obj)) 返回obj的json格式的字符串
+		var obj = {
+			a:1,
+			b:function(){
+				console.log("我是b")
+			},
+			c:[1,2,3],
+			d:{dd:"obj"}
+		}
+		console.log(JSON.stringify(obj))//{"a":1,"c":[1,2,3],"d":{"dd":"obj"}}
+		console.log(Json.parse(JSON.stringify(obj))//{a: 1, c: Array(3), d: {…}}
+			//可见此种方法可以对对象的属性成员进行深拷贝，但成员方法不能被其copy下来。
+//数组的拷贝
+	//objArr.concat(arr1,arr2...) 返回一个基于objArr链接arr1，arr2...的新数组
+		var arr1 = [1,2,3]
+		var arr2 = [2,3,4]
+		console.log(arr1.concat(arr2)) //[1,2,3,2,3,4]
+		//用于copy
+		var copyArr = arr1.concat();
+		var copyArr1 = arr.slice();//默认截取所有数组元素
+
+	</script>
+</body>
+</html>

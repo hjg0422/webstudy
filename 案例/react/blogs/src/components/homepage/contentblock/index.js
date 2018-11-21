@@ -3,14 +3,17 @@ import styles from './index.module.scss';
 import { Icon } from 'antd';
 import PropTypes from 'prop-types';
 import MusicCard from '../music-card'
+import {switchAction} from '../../../redux/action'
 //测试图片
 import cover from './coverImgs/cover-1.jpg'
+// import * as store from "react-redux";
 export default class ContentBlock extends React.Component{
     constructor(props){
-        super(props)
+        super(props);
         this.state={
             blogShowList:[],
-            currentListNum:0
+            currentListNum:0,
+            musicPlayerStatus:false
         }
     }
     //获取store
@@ -186,16 +189,17 @@ export default class ContentBlock extends React.Component{
             currentListNum: currentListNum >= listLength-1 ?0:currentListNum+1
         })
     }
+    handleSwitchMusic(index){
+        this.context.store.dispatch(switchAction(1));
+        console.log("click")
+    }
 
     render(){
-        // const contextTypes = {
-        //     store: React.PropTypes.object.isRequired,
-        // };
        /*
       * niceMusic
       * */
-        console.log(this.props,"props");
-        console.log(this.context.store,"context");
+        // console.log(this.context.store,"context");
+        const {store} = this.context;
         const niceMusic = {
             music_1:{
                 name:"lihun-1",
@@ -231,7 +235,7 @@ export default class ContentBlock extends React.Component{
             {/*nice music*/}
             <section className={styles["nice-music"]}>
                 <div className={styles.music}>
-                    <MusicCard key={"1"} musicName="离婚" singer="李志" sepial="201IO现场版" musicInfo={"卡卡卡卡卡卡卡卡卡卡卡卡卡啊卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡阿卡卡卡卡卡啊卡卡爱卡卡爱阿卡"}/>
+                    <MusicCard key={"1"} onclick={this.handleSwitchMusic}  musicName="离婚" singer="李志" sepial="201IO现场版" musicInfo={"卡卡卡卡卡卡卡卡卡卡卡卡卡啊卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡阿卡卡卡卡卡啊卡卡爱卡卡爱阿卡"}/>
                     <MusicCard key={"2"} musicName="离婚" singer="李志" sepial="201IO现场版" musicInfo={"卡卡卡卡卡卡卡卡卡卡卡卡卡啊卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡阿卡卡卡卡卡啊卡卡爱卡卡爱阿卡"}/>
                     <MusicCard key={"3"} musicName="离婚" singer="李志" sepial="201IO现场版" musicInfo={"卡卡卡卡卡卡卡卡卡卡卡卡卡啊卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡阿卡卡卡卡卡啊卡卡爱卡卡爱阿卡"}/>
                 </div>

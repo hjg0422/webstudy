@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>类型转换</title>
+	<link rel="stylesheet" href="reset/reset.css">
+</head>
+<body>
+	<div class="container">
+	</div>
+	<script>
+	/*类型转换*/
+	//基础知识回顾 js 基本类型 Number String null undefined boolean
+		//显示类型转换
+			/*Api: 
+				Number: Number(),parseInt(),parseFloat()
+				String: String() obj.toString()
+				boolean: Boolean(),
+			*/
+		//隐式类型转换 常出现在不同类型的基本类型的运算和比较上。
+			//运算：
+				console.log(1 + "2") 	//"12"  ----------1
+				console.log("1" + 2) 	//"12"  ----------2
+				console.log("2" - 1) 	//1  ----------3
+				console.log(2 -"1") 	//1  ----------4
+				console.log(-"2") 		//2  ----------5
+				console.log(+"2")		//2  ----------6
+				console.log(1*"2")		//2  ----------7
+				console.log(1+false)    //1 ----------8
+				console.log(1+true)		//2 ----------9
+				console.log([1,2]+[3,4]) //这里会将[]先隐式转换为String 再进行运算 结果"1,23,4"
+				console.log([1,2,3]+{})  //"1,2,3[object Object]"
+				console.log([1,2] - 1)// NaN
+				console.log([1,2] - "2" )// NaN
+				console.log(2 * [1,2] )// NaN
+				console.log(2 * {a:1} )// NaN
+				//总结： Array Object 在做+,-,*... 运算的时候，会先转换为String 再进行运算
+			//条件判断 Toboolean if/for/while/三目运算符/逻辑运算符
+				console.log("22" == 22) //true
+				console.log("22" === 22) //false
+				console.log(null == undefined) //true
+				console.log(null === undefined) //false
+					if(false) console.log(2333)
+					if('') console.log(2333)
+					if(null) console.log(2333)
+					if(undefined) console.log(2333)
+					if(NaN) console.log(2333)
+					if(0) console.log(2333)
+						//以上均无打印。均被转换为false
+					if(true) console.log(2333) // 2333
+					if('test') console.log(2333) // 2333
+					if([]) console.log(2333) // 2333
+					if({}) console.log(2333) // 2333
+					if(!0) console.log(2333) // 2333 非0 的number
+						//以上均被转为true
+					// 0 == '' // true
+					// 0 == '0' // true
+					// 0 == [] // true
+					// 0 == [0] // true
+					 
+					// 1 == true // true
+					// 1 == '1' // true
+					// 1 == [1] // true
+					 
+					// [1] == true // true
+					// [] == false // true
+						//以上为true
+					// 0 == {}
+					// 0 == null
+					// 0 == undefined // false
+					// 0 == NaN // false
+					 
+					// 1 == {} // false
+					// 1 == null // false
+					// 1 == undefined // false
+					// 1 == NaN // false
+					 
+					// [] == [] // false
+					// [1] == [1] // false
+					// [1] == {} // false
+					// [1] == {a:1} // false
+					// [1] == false // false
+					// [1] == null // false
+					// [1] == undefined // false
+					// [1] == NaN // false
+					 
+					// {} == {} // false
+					// {a:1} == {a:1} // false
+						//以上都为false
+
+
+	//避免隐式类型转换 避免使用== 尽量使用===
+		// == 和 === 的区别
+
+		/* == ：
+			先检查两个操作数的数据类型？ （判断值是否相等？true:false）: （判断值是否相等？true[null==undefined,数组和字符串或数字的比较等等]:false）
+		===：先检查两个操作数的数据类型？(判断值是否相等？true:false）：false
+		*/
+
+
+	</script>
+</body>
+</html>

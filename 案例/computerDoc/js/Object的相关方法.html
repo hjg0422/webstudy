@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>对象的相关方法</title>
+</head>
+<body>
+	<script>
+		//Object.getPrototypeOf(obj) 获取obj原型对象方法
+			function Person(){}
+			var p = new Person()
+			Object.getPrototypeOf(p)//Person.prototype
+		//Object.setPrototypeOf(obj,objPrototype)为Obj 设置原型对象
+			var a = {}
+			Object.getPrototypeOf(a) === Object.prototype//true
+			var b = {x: 1}
+			//执行
+			Object.setPrototypeOf(a,b)
+			Object.getPrototypeOf(a) === b //true
+			Object.getPrototypeOf(a) === Object.prototype //false
+				//小记 模拟new
+					/*
+						var F = function(){
+							this.foo == 'bar'
+						}
+
+						var f = new F()
+						等同于
+						var f = Object.setPrototypeOf(f,F.prototype)
+						F.call(f)
+					*/
+		//Object.create(obj) 接受一个对象，返回一个以他为原型的新对象
+		//obj.prototype.isPrototypeOf()
+		//Object.getOwnPropertyNames()方法返回一个数组，成员是参数对象本身的所有属性的键名，不包含继承的属性键名
+			/*Object.getOwnPropertyNames(Date)
+				// ["parse", "arguments", "UTC", "caller", "name", "prototype", "now", "length"]
+			*/
+		//obj.hasOwnPrototype()判断对象是否拥有某个属性，不会遍历原型链
+		//对象的拷贝
+			/*
+				要点：
+					确保拷贝后的对象，与原对象具有同样的原型。
+					确保拷贝后的对象，与原对象具有同样的实例属性。
+					1：
+						function copyObject(orig) {
+							  var copy = Object.create(Object.getPrototypeOf(orig));
+							  copyOwnPropertiesFrom(copy, orig);
+							  return copy;
+							}
+
+							function copyOwnPropertiesFrom(target, source) {
+							  Object
+							    .getOwnPropertyNames(source)
+							    .forEach(function (propKey) {
+							      var desc = Object.getOwnPropertyDescriptor(source, propKey);
+							      Object.defineProperty(target, propKey, desc);
+							    });
+							  return target;
+						}
+					2：
+						function copyObject(orig) {
+							  return Object.create(
+							    Object.getPrototypeOf(orig),
+							    Object.getOwnPropertyDescriptors(orig)
+							  );
+						}
+			*/
+	</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>响应式布局1</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		.container{
+			width: 100%;
+			max-width: 1500px;
+			background: #60907e;
+			margin: 0 auto;
+			text-align: center;
+			overflow: hidden;
+		}
+		nav{
+			font-size: 24px;
+			color: orange;
+			border:5px solid orange;
+			box-sizing: border-box;
+		}
+		section{
+			box-sizing: border-box;
+		}
+		.s-1{
+			border: 2px dashed lightgreen;
+			font-size: 16px;
+			color: lightgreen;	
+		}
+		.s-2{
+			border: 5px solid yellow;
+			font-size: 13px;
+			color: yellow;	
+		}
+		@media only screen and (min-width: 600px){
+			nav{
+				float: left;
+				width: 25%;
+			}
+			section{
+				margin-left: 25%;
+			}
+		}
+		@media only screen and (max-width: 599px){
+			ul>li{
+				display: inline;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<span>nav</span>
+			<ul>
+				<li>1</li>
+				<li>1</li>
+				<li>1</li>
+				<li>1</li>
+				<li>1</li>
+				<li>1</li>
+			</ul>
+		</nav>
+		<section class="s-1">
+			<span>section-top</span>
+			可以尝试调整窗口大小
+		</section>
+		<section class="s-2">
+			<span>section-buttom</span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+		</section>
+	</div>
+</body>
+</html>
